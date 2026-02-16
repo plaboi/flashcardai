@@ -23,7 +23,10 @@ export function buildImagePrompt(backText: string): string {
   return [
     "A simple, colourful cartoon educational illustration of",
     truncated.toLowerCase(),
-    "- clean vector style, friendly learning visual,",
-    "white background, no text, no labels, no photorealism",
+    "in the style of a children's educational textbook.",
+    "Use a consistent pastel color palette with soft blues, greens, pinks, and yellows.",
+    "Thick black outlines, rounded shapes, minimal detail,",
+    "centered composition on a pure white background.",
+    "No text, no labels, no shadows, no gradients, no 3D effects.",
   ].join(" ");
 }
