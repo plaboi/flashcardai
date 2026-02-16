@@ -28,5 +28,6 @@ export function buildImagePrompt(backText: string): string {
     "Thick black outlines, rounded shapes, minimal detail,",
     "centered composition on a pure white background.",
     "No text, no labels, no shadows, no gradients, no 3D effects.",
+    "No complicated illustrations, just simple, clean, and educational."
   ].join(" ");
 }
